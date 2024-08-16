@@ -3,7 +3,7 @@ package com.gitlab.github;
 public class User {
 	
 	
-	public int id;
+	  public int id;
 	public String name;
 	public int employeedId;
 	public User(int id, String name, int employeedId) {

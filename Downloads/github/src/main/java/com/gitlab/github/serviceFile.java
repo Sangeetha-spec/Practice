@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 public class serviceFile {
 	
-	public UserDaoService usd;
+	 public UserDaoService usd;
 
 	public serviceFile(UserDaoService usd) {
 		super();
