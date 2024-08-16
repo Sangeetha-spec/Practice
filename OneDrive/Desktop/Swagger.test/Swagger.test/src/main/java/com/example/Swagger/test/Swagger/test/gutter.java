@@ -23,7 +23,7 @@ public class gutter {
 		super();
 		this.clas = clas;
 	}
-	@GetMapping("/test")
+	@GetMapping("/rest")
 	public List<Voters> findAll()
 	{
 		return clas.fetch();
