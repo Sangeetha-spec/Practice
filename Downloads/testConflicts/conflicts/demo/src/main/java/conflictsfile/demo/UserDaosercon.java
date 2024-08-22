@@ -9,7 +9,7 @@ public static List<Userconf> users = new ArrayList<>();
 	
 	static {
 		 users.add(new Userconf(1 ,"conflct", 2));
-		 users.add(new Userconf(2, "ddd",22));
+		 users.add(new Userconf(2, "ddd",2542));
 	}
 	public List<Userconf> getUser()
 	{
