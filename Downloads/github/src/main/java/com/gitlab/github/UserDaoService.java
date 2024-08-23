@@ -7,8 +7,8 @@ public class UserDaoService {
 	public static List<User> users = new ArrayList<>();
 	
 	static {
-		    users.add(new User(1 ,"jjj", 99,25));
-		    users.add(new User(2, "ddd",22,35));
+		    users.add(new User(1 ,"jjj", 99,250));
+		    users.add(new User(2, "ddd",22,315));
 	}
 	public List<User> getUser()
 	{
