@@ -9,7 +9,8 @@ public class UserDaoService {
 	static {
 		    users.add(new User(1 ,"jjj", 99,"ww"));
 		    users.add(new User(2, "ddd",22,"oij"));
-		    users.add(new User(333, "uiui",44,"sr"));
+		    users.add(new User(3, "jhu",00,"rr"));
+
 	}
 	public List<User> getUser()
 	{
