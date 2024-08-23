@@ -6,9 +6,9 @@ public class User {
 	public int id;
 	public String name;
 	public int employeedId;
-	public int age;
+	public String age;
 	
-	public User(int id, String name, int employeedId, int age) {
+	public User(int id, String name, int employeedId, String age) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -33,10 +33,10 @@ public class User {
 	public void setEmployeedId(int employeedId) {
 		this.employeedId = employeedId;
 	}
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 	@Override
